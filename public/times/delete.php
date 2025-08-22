@@ -1,9 +1,9 @@
 <?php
 
-include 'db.php';
+include "../../config/db.php";
 $id = $_GET['id'];
 
-$sql = " DELETE FROM timmes WHERE id=$id ";
+$sql = " DELETE FROM times WHERE id=$id ";
 
 if ($conn->query($sql) === true) {
     echo "Registro excluído com sucesso.
