@@ -11,7 +11,8 @@
   </header>
   <main> 
     <div class="flex"> 
-
+        <a href=""></a>
+        <a href=""></a>
     </div>
   </main>
 
