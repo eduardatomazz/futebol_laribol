@@ -4,10 +4,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nome = $_POST['nome'];
     $posicao = $_POST['posicao'];
     $numero_camisa = $_POST['numero'];
-    $id_time = 1; 
+    $time_id = 1; 
 
-    $sql = "INSERT INTO joadores (nome, posicao, numero, id_time)
-            VALUES ('$nome', '$posicao', '$numero_camisa', '$id_time')";
+    $sql = "INSERT INTO joadores (nome, posicao, numero, time_id)
+            VALUES ('$nome', '$posicao', '$numero_camisa', '$time_id')";
 
     if ($conn->query($sql) === TRUE) {
         header("Location: index.php");
