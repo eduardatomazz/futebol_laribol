@@ -6,6 +6,15 @@
     <title>Document</title>
 </head>
 <body>
+  <header> 
+    <h1>Selecione</h1>
+  </header>
+  <main> 
+    <div class="flex"> 
+
+    </div>
+  </main>
+
     
 </body>
 </html>
