@@ -1,9 +1,9 @@
 <?php
 return [
   'DB_HOST' => '127.0.0.1',
-  'DB_NAME' => 'bumbameupao',
+  'DB_NAME' => 'fultebollaribol',
   'DB_USER' => 'root',
   'DB_PASS' => '',
-  'APP_NAME' => 'Bumba meu Pão',
+  'APP_NAME' => 'fultebol - laribol',
   'BASE_URL' => '/'
 ];
