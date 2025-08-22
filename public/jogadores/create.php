@@ -1,5 +1,4 @@
-<?php
-include 'db.php';
+<?php include __DIR__.'/../partials/header.php'; $pdo=pdo();;
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nome = $_POST['nome'];
@@ -21,11 +20,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Adicionar Produto</title>
+    <title>Adicionar Jogador</title>
     
 </head>
 <body>
-    <h1>Adicionar Produto</h1>
+    <h1>Adicionar Jogador</h1>
     <form method="POST">
         Nome: <input type="text" Name="Nome" required><br>
         posição: <textarea name="posicao" required></textarea><br>
@@ -35,3 +34,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <a href="index.php">Voltar</a>
 </body>
 </html>
+<?php include __DIR__.'/../partials/footer.php'; ?>
