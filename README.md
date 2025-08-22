@@ -5,7 +5,7 @@ Este projeto implementa um **CRUD completo** (Create, Read, Update, Delete) com 
 
 ---
 
-## 📌 Requisitos Funcionais
+## Requisitos Funcionais
 - Cadastrar, listar, editar e excluir times, jogadores e partidas.
 - Jogador deve ter posição válida (lista pré-definida).
 - Número da camisa deve estar entre 1 e 99.
