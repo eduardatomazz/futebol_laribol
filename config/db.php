@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "root";
-$dbname = "padaria_paodango";
+$dbname = "futebol_db";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
